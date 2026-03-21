@@ -1,115 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pushpa | Product Manager | Ex-Wiproite</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pushpa Prajapati – Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      background: #f9f9f9;
-      color: #333;
+      font-family: "Inter", sans-serif;
+      background: #fafafa;
+      color: #222;
     }
-    header {
-      background: #2c3e50;
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
-    nav {
-      margin-top: 1rem;
-    }
-    nav a {
-      color: white;
-      margin: 0 1rem;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    section {
-      padding: 3rem;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      color: #2c3e50;
-    }
-    .case-study {
+
+    .header {
       background: white;
-      padding: 1.5rem;
-      margin-bottom: 2rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    footer {
-      background: #2c3e50;
-      color: white;
+      padding: 40px 20px;
       text-align: center;
-      padding: 1rem;
+      border-bottom: 1px solid #eee;
+    }
+
+    .header h1 {
+      font-size: 36px;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    .header p {
+      font-size: 18px;
+      color: #555;
+      margin-top: 8px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .section-title {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    .case-study-card {
+      background: white;
+      padding: 24px;
+      border-radius: 12px;
+      margin-bottom: 24px;
+      border: 1px solid #eee;
+      transition: 0.2s ease;
+    }
+
+    .case-study-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    }
+
+    .case-study-title {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .case-study-desc {
+      color: #555;
+      font-size: 16px;
+      margin-bottom: 12px;
+    }
+
+    .view-btn {
+      display: inline-block;
+      padding: 10px 18px;
+      background: #4f46e5;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: #777;
+      font-size: 14px;
+      margin-top: 40px;
     }
   </style>
 </head>
+
 <body>
-  <header>
-    <h1>Pushpa</h1>
-    <p>Product Manager | Ex-Wiproite</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#resume">Resume</a>
-      <a href="#case-studies">Case Studies</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Hi, I’m Pushpa, Currently working as Product-focused QA Test Manager and more passionate about exploring why and what about product, building user-centric solutions, driving measurable business outcomes.</p>
-  </section>
+  <!-- HEADER -->
+  <div class="header">
+    <h1>Pushpa Prajapati</h1>
+    <p>Product Manager • Case Studies • Portfolio</p>
+  </div>
 
-  <section id="resume">
-    <h2>Resume</h2>
-    <p><a href="https://pushpa17prajapati.github.io/My-Portfolio/resume.pdf" target="_blank">Download My Resume (PDF)</a></p>
-    <ul>
-      <li><strong>Experience:</strong> Product Manager at XYZ Company</li>
-      <li><strong>Skills:</strong> Roadmapping, Agile, Data Analysis</li>
-      <li><strong>Education:</strong> MBA in Product Management</li>
-    </ul>
-  </section>
+  <!-- CASE STUDIES -->
+  <div class="container">
+    <h2 class="section-title">Case Studies</h2>
 
-  <section id="case-studies">
-    <h2>Case Studies</h2>
-    <div class="case-study">
-      <!-- PDF Thumbnail -->
-  <a href="https://github.com/pushpa17prajapati/My-Portfolio/blob/main/40%25%20increase%20in%20user%20Adoption%20of%20sRide%20App.pdf" target="_blank">
-    <img src="https://github.com/pushpa17prajapati/My-Portfolio/blob/main/sRide%20thumbmail.png" 
-         alt="Case Study 1 Thumbnail"
-         style="width:250px; border:1px solid #ccc; border-radius:6px;">
-  </a>
-      <p class="case-study-pdf">
-  <a href="https://github.com/pushpa17prajapati/My-Portfolio/blob/main/40%25%20increase%20in%20user%20Adoption%20of%20sRide%20App.pdf" target="_blank">Case Study 1: 40% increase in user Adoption of sRide App (PDF)</a></p>
-      <p><strong>Problem 1:</strong>Pickup/Drop location mismatch.</p>
-      <p><strong>Approach:</strong>Introducing new AI framework to enhance coordination between riders & drivers</p>
-      <p><strong>Outcome:</strong> 20% increase in user adoption</p>
-      <p><strong>Problem 2:</strong>Mandatory subscription plans.</p>
-      <p><strong>Approach:</strong>Introducing Freemium access and discounts.</p>
-      <p><strong>Outcome:</strong> 20% increase in user adoption</p>
+    <!-- CASE STUDY 1 -->
+    <div class="case-study-card">
+      <div class="case-study-title">Case Study 1 Title</div>
+      <div class="case-study-desc">
+        Short description of your case study. Replace this with your real content.
+      </div>
+      <a href="#" class="view-btn">View Case Study</a>
     </div>
-    <div class="case-study">
-      <h3>Case Study 2: Star Health : Standardizing Claims to Minimize Rejections</h3>
-      <p><strong>Problem:</strong>Overcoming claim rejections</p>
-      <p><strong>Approach:</strong>Enhancing Insurance App to intract closely with customers and smooth claim processing</p>
-      <p><strong>Outcome:</strong>45% increase in policy renewal with strong trust on company.</p>
+
+    <!-- CASE STUDY 2 -->
+    <div class="case-study-card">
+      <div class="case-study-title">Case Study 2 Title</div>
+      <div class="case-study-desc">
+        Short description of your case study. Replace this with your real content.
+      </div>
+      <a href="#" class="view-btn">View Case Study</a>
     </div>
-  </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:pushpa17prajapati@gmail.com">pushpa17prajapati@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/pushpa" target="_blank">www.linkedin.com/in/pushpa-prajapati</a></p>
-  </section>
+    <!-- CASE STUDY 3 -->
+    <div class="case-study-card">
+      <div class="case-study-title">Case Study 3 Title</div>
+      <div class="case-study-desc">
+        Short description of your case study. Replace this with your real content.
+      </div>
+      <a href="#" class="view-btn">View Case Study</a>
+    </div>
 
-  <footer>
-    <p>© 2026 Pushpa | Product Manager Portfolio</p>
-  </footer>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    © 2026 Pushpa Prajapati • Portfolio
+  </div>
+
 </body>
 </html>
